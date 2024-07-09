@@ -1,0 +1,266 @@
+@media only screen and (min-width: 768px) {
+   
+    * {
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+     
+    body{
+        font-family: "Inter", sans-serif;
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        line-height: 1.6;
+        background-color: #fff;
+        color: #000;
+        background-color: #fff;
+        max-width: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    
+
+
+    #container_totality {
+        position: relative;
+        padding-bottom: 10%;
+        max-width: 100%;
+    }
+    
+    #cabeca {
+        position: fixed;
+        background: linear-gradient(to bottom, #828282, 20%, #fff);
+        width: 100%;
+        height: 10%;
+        margin-top: -7%;
+        z-index: 1;
+        border-bottom: 1px solid #cfcfcf;
+    }
+    
+    #logo {
+        position: absolute;
+        top: 18%;
+        left: 1%;
+        width: 100px;
+        height: 40px;
+    }
+    
+    #titulo {
+        text-align: center;
+        font-family:"Inter", sans-serif;
+        margin-top: 1%;
+        font: 1em sans-serif;
+        font-weight: bold;
+        color: #00737A;
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    #sub {
+        text-align: center;
+        font-weight: bold;
+        color: #828282;
+        margin-top: -3%;
+    }
+
+    #text1 {
+        text-align: center;
+        color: #00737A;
+        margin-top: 5%;
+        font-weight: bold ;
+        font: 2em sans-serif;
+    }
+
+    #text2 {
+        color: #828282;
+        text-align: center;
+        font-weight: bold ;
+        font: 1em sans-serif;
+        margin-top: 2%;
+    }
+    
+    .foto {
+        max-width: 100%;
+        max-width: 100%;
+        width: 35.5%;
+        margin-left: 30%;
+        margin-top: 3%;
+    }
+
+    footer {
+        background: linear-gradient(to top, #777777, #fff);
+        padding: 20px;
+        text-align: center; /* Centraliza o conteúdo do footer */
+        margin-top: auto; /* Garante que o footer esteja no final da página */
+    }
+    
+    #rodape {
+        text-align: left;
+        font-family: "Inter", sans-serif;
+        font-size: 1em; /* Corrige a definição do tamanho da fonte */
+        font-weight: bold;
+        color: #00737A;
+        margin-left: 2%;
+    }
+    
+    #rodape_sub {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        font-weight: bold;
+        margin-left: 2%;
+        color: #828282;
+    }
+    
+    #direitos_auto {
+        text-align: center;
+        font-size: 0.5em; /* Corrige a definição do tamanho da fonte */
+        font-weight: bold;
+        margin-left: 1%;
+        color: #000000;
+    }
+    
+    #bg {
+        max-width: 1200px; /* Limita a largura máxima do conteúdo do footer */
+        margin: 0 auto; /* Centraliza o footer na página */
+    }
+}
+
+/*CELULARES*/
+@media only screen and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: "Inter", sans-serif;
+        font-size: 12px;
+        line-height: 1.6;
+        background-color: #fff;
+        color: #000;
+        background-color: #fff;
+        max-width: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    
+    #container_totality {
+        position: relative;
+        padding-bottom: 10%;
+        max-width: 100%;
+    }
+    
+    #cabeca {
+        position: fixed;
+        background: linear-gradient(to bottom, #828282, 20%, #fff);
+        width: 100%;
+        height: 7%;
+        margin-top: -5%;
+        max-width: 100%;
+        border-bottom: 1px solid #cfcfcf;
+        z-index: 1;
+    }
+    
+    #logo {
+        position: absolute;
+        top: 16%;
+        left: 0.9%;
+        width: 55px;
+        height: 25px;
+    }
+    
+    #titulo {
+        text-align: center;
+        font-family:"Inter", sans-serif;
+        font: 1em sans-serif;
+        font-weight: bold;
+        color: #00737A;
+        margin-top: 1.5%;
+    }
+    
+    
+    #sub {
+        text-align: center;
+        font-weight: bold;
+        color: #828282;
+        font: 1em sans-serif;
+        margin-top: 0.5%;
+        margin-left: 5%;
+    }
+
+    #text1 {
+        text-align: center;
+        color: #00737A;
+        margin-top: 20%;
+        margin-left: 1%;
+        font-weight: bold ;
+        font: 1.2em sans-serif;
+    }
+
+    #text2 {
+        color: #828282;
+        text-align: center;
+        font-weight: bold ;
+        font: 0.9em sans-serif;
+        margin-top: 6%;
+        margin-left: 1%;
+    }
+
+    .foto {
+        max-width: 100%;
+        max-width: 100%;
+        width: 80%;
+        margin-left: 12%;
+        margin-top: 10%;
+        margin-bottom: 38%;
+    }
+
+
+    footer {
+        background: linear-gradient(to top, #777777, #fff);
+        padding: 20px;
+        text-align: center; /* Centraliza o conteúdo do footer */
+        margin-top: auto; /* Garante que o footer esteja no final da página */
+    }
+    
+    #rodape {
+        text-align: left;
+        font-family: "Inter", sans-serif;
+        font-size: 1em; /* Corrige a definição do tamanho da fonte */
+        font-weight: bold;
+        color: #00737A;
+        margin-left: 2%;
+    }
+    
+    #rodape_sub {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        font-weight: bold;
+        margin-left: 2%;
+        color: #828282;
+    }
+    
+    #direitos_auto {
+        text-align: center;
+        font-size: 0.5em; /* Corrige a definição do tamanho da fonte */
+        font-weight: bold;
+        margin-left: 1%;
+        color: #000000;
+    }
+    
+    #bg {
+        max-width: 1200px; /* Limita a largura máxima do conteúdo do footer */
+        margin: 0 auto; /* Centraliza o footer na página */
+    }
+}
